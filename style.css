@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body {
+    font-family:'Bai Jamjuree', sans-serif;
+  text-align:center;
+  color:hsl(210, 10%, 33%);
+  
+ }
+
+ .hero{
+  background-image: url("images/Flowing white texture on gray backdrop.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 120px 20px;
+  text-align: center;
+}
+
+ .logo {
+    margin-bottom: 40px;
+ }
+
+ .hero h1 {
+    font-size:40px;
+  margin-bottom:20px;
+ }
+
+ .hero p {
+     max-width:600px;
+  margin:0 auto 30px;
+  color:hsl(201, 11%, 66%);
+  line-height:1.6;
+ }
+
+.buttons {
+    display:flex;
+  justify-content:center;
+  gap:15px;
+}
+
+button {
+    padding:14px 30px;
+  border:none;
+  border-radius:30px;
+  font-size:16px;
+  color:white;
+  cursor:pointer;
+}
+
+
+.ios {
+    background:hsl(171, 66%, 44%);
+  box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
+.ios:hover {
+ background-color: darkgreen;
+}
+
+.mac {
+    background:hsl(233, 100%, 69%);
+  box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
+.mac:hover {
+background-color: darkblue;
+}
+
+.features-intro {
+    padding:80px 20px 40px;
+}
+
+.features-intro h2{
+  font-size:30px;
+  margin-bottom:20px;
+}
+
+.features-intro p{
+  max-width:600px;
+  margin:auto;
+  color:hsl(201, 11%, 66%);
+  line-height:1.6;
+}
+
+.features{
+  padding:60px 20px;
+}
+
+.features-container{
+  display:flex;
+  align-items:center;
+  gap:60px;
+  max-width:1100px;
+  margin:auto;
+  text-align:left;
+}
+
+.features-image img{
+  width:100%;
+}
+
+.features-text{
+  max-width:350px;
+}
+
+.feature{
+  margin-bottom:40px;
+}
+
+.feature h3{
+  margin-bottom:10px;
+}
+
+.feature p{
+  color:hsl(201, 11%, 66%);
+  line-height:1.6;
+}
+.access{
+  padding:80px 20px;
+}
+
+.access h2{
+  font-size:30px;
+  margin-bottom:20px;
+}
+
+.access p{
+  max-width:600px;
+  margin:0 auto 40px;
+  color:hsl(201, 11%, 66%);
+}
+
+.access img{
+  max-width:900px;
+  width:100%;
+}
+
+.workflow{
+  padding:80px 20px;
+}
+
+.workflow h2{
+  font-size:30px;
+  margin-bottom:10px;
+}
+
+.workflow p{
+  color:hsl(201, 11%, 66%);
+  margin-bottom:60px;
+}
+
+.workflow-features{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  max-width:1100px;
+  margin:auto;
+}
+
+.workflow-item{
+  max-width:300px;
+}
+
+.workflow-item img{
+  margin-bottom:25px;
+}
+
+.workflow-item h3{
+  margin-bottom:10px;
+}
+
+.workflow-item p{
+  color:hsl(201, 11%, 66%);
+  line-height:1.6;
+}
+
+.companies{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:60px;
+  flex-wrap:wrap;
+  padding:80px 20px;
+}
+
+.download{
+  padding:80px 20px;
+}
+
+.download h2{
+  font-size:30px;
+  margin-bottom:20px;
+}
+
+.download p{
+  max-width:600px;
+  margin:0 auto 30px;
+  color:hsl(201, 11%, 66%);
+  line-height:1.6;
+}
+
+footer{
+  background:#f5f6f8;
+  padding:40px 20px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  max-width:1200px;
+  margin:auto;
+}
+
+.footer-links{
+  display:flex;
+  gap:25px;
+  flex-wrap:wrap;
+}
+
+.footer-links a{
+  text-decoration:none;
+  color:hsl(210, 10%, 33%);
+}
+
+.social img{
+  margin-left:15px;
+  cursor:pointer;
+}
