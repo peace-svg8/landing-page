@@ -11,7 +11,7 @@
  }
 
  .hero{
-  background-image: url("images/Flowing white texture on gray backdrop.png");
+  background-image: url("images/bg-header-desktop.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -209,7 +209,7 @@ footer{
   align-items:center;
   justify-content:space-between;
   flex-wrap:wrap;
-  max-width:1200px;
+  max-width:1500px;
   margin:auto;
 }
 
