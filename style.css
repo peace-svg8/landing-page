@@ -228,3 +228,33 @@ footer{
   margin-left:15px;
   cursor:pointer;
 }
+
+/* MOBILE FIXES */
+@media (max-width:768px){
+
+  .buttons{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .features-container{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .features-text{
+    max-width:100%;
+  }
+
+  .workflow-features{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  footer{
+    flex-direction:column;
+    gap:30px;
+    text-align:center;
+  }
+
+}
