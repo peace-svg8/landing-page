@@ -24,6 +24,7 @@ body {
 .hero img {
   max-width: 80px;
   height: auto;
+  margin-bottom: 30px;
 }
 
 .logo {
@@ -36,7 +37,7 @@ body {
 }
 
 .hero p {
-  max-width: 500px;
+  max-width: 550px;
   margin: 0 auto 20px;
   color: hsl(201, 11%, 66%);
   line-height: 1.5;
@@ -112,12 +113,12 @@ button {
   display: block;         /* ensures proper alignment */
   max-width:800px;       /* reduce the size a little */
   width: 100%;            /* scales responsively up to max-width */
-  margin-left: -25px;         /* stick to left edge */
+  margin-left: -50px;         /* stick to left edge */
   margin-right: 40px;     /* space on the right */
 }
 
 .features-text {
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .feature {
@@ -186,6 +187,7 @@ button {
 
 .workflow-item img {
   margin-bottom: 35px;
+  max-width: 48px;
 }
 
 .workflow-item h3 {
@@ -234,27 +236,21 @@ footer {
   padding: 20px 60px;
   display: flex;
   align-items: center;
-  justify-content: center; /* centers everything */
+  justify-content: space-between; /* spreads items across */
   flex-wrap: wrap;
   max-width: 1500px;
-  margin: auto;
-  margin-top: 55px;
-  gap: 60px; /* spacing between logo, links, and social */
+  margin: 55px auto 0;
 }
 
 footer img {
-  max-width: 40px;
+  width: 40px;
   height: auto;
-  margin: 0; /* remove extra margin */
-  margin-left: -60px;
 }
 
 .footer-links {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 15px 60px;
 }
 
 .footer-links a {
@@ -262,8 +258,14 @@ footer img {
   color: hsl(210, 10%, 33%);
 }
 
+.social {
+  display: flex;
+  gap: 15px;
+}
+
 .social img {
-  margin-left: 8px;
+  width: 20px;   /* reduces the icon size */
+  height: auto;
   cursor: pointer;
 }
 
