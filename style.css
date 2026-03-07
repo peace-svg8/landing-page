@@ -22,7 +22,7 @@ body {
 }
 
 .hero img {
-  max-width: 60px;
+  max-width: 70px;
   height: auto;
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 button {
-  padding: 10px 20px;
+  padding: 15px 20px;
   border: none;
   border-radius: 30px;
   font-size: 14px;
@@ -87,7 +87,7 @@ button {
 }
 
 .features-intro p {
-  max-width: 500px;
+  max-width: 600px;
   margin: auto;
   color: hsl(201, 11%, 66%);
   line-height: 1.5;
@@ -108,19 +108,19 @@ button {
 }
 
 .features-image img {
-  width: 100%;
-  margin-left: 0;         /* aligns image to left */
-  margin-right: 40px;     /* adds space on the right */
-  max-width: 100%;        /* scales image responsively */
-  width: auto; 
+  display: block;         /* ensures proper alignment */
+  max-width: 400px;       /* reduce the size a little */
+  width: 100%;            /* scales responsively up to max-width */
+  margin-left: 0;         /* stick to left edge */
+  margin-right: 40px;     /* space on the right */
 }
 
 .features-text {
-  max-width: 250px;
+  max-width: 340px;
 }
 
 .feature {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .feature h3 {
@@ -130,6 +130,7 @@ button {
 .feature p {
   color: hsl(201, 11%, 66%);
   line-height: 1.5;
+  margin-bottom: 40px;
 }
 
 /* ACCESS */
@@ -143,14 +144,16 @@ button {
 }
 
 .access p {
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto 25px;
   color: hsl(201, 11%, 66%);
+  line-height: 2.0;
 }
 
 .access img {
   max-width: 700px;
   width: 100%; 
+  margin-top: 50px;
 }
 
 /* WORKFLOW */
@@ -159,8 +162,8 @@ button {
 }
 
 .workflow h2 {
-  font-size: 24px;
-  margin-bottom: 8px;
+  font-size: 28px;
+  margin-bottom: 20px;
 }
 
 .workflow p {
@@ -177,20 +180,21 @@ button {
 }
 
 .workflow-item {
-  max-width: 220px;
+  max-width: 700px;
 }
 
 .workflow-item img {
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 
 .workflow-item h3 {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .workflow-item p {
   color: hsl(201, 11%, 66%);
-  line-height: 1.5;
+  line-height: 2.0;
+  max-width: 600px;
 }
 
 /* COMPANIES */
@@ -203,7 +207,7 @@ button {
 }
 
 .companies img {
-  max-width: 80px;
+  max-width: 130px;
 }
 
 /* DOWNLOAD SECTION */
@@ -217,10 +221,10 @@ button {
 }
 
 .download p {
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto 20px;
   color: hsl(201, 11%, 66%);
-  line-height: 1.5;
+  line-height: 2.0;
 }
 
 /* FOOTER */
@@ -233,6 +237,7 @@ footer {
   flex-wrap: wrap;
   max-width: 1500px;
   margin: auto;
+  margin-top: 55px;
   gap: 60px; /* spacing between logo, links, and social */
 }
 
@@ -244,7 +249,7 @@ footer img {
 
 .footer-links {
   display: flex;
-  gap: 40px;
+  gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
   max-width: 300px;
