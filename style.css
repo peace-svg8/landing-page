@@ -109,6 +109,9 @@ button {
 
 .features-image img {
   width: 100%;
+  display: block;      /* removes inline spacing issues */
+  margin-left: 0;      /* aligns to left */
+  margin-right: auto;
 }
 
 .features-text {
@@ -146,7 +149,7 @@ button {
 
 .access img {
   max-width: 700px;
-  width: 100%;
+  width: 100%; 
 }
 
 /* WORKFLOW */
@@ -194,7 +197,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 50px;
   padding: 50px 20px;
 }
 
@@ -241,6 +244,8 @@ footer img {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  justify-content: center;
+  max-width: 600px;
 }
 
 .footer-links a {
